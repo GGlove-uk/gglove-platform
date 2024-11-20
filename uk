@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive Companion Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🌟 EliteCompanions</div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <h1>Your Exclusive Companion Awaits</h1>
+    <p>Discover a world of tailored companionship experiences with complete discretion.</p>
+    <a href="#services" class="btn">Explore Options</a>
+  </section>
+  
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <h3>Business Events</h3>
+      <p>Elegant companions for formal occasions.</p>
+    </div>
+    <div class="service-item">
+      <h3>Social Gatherings</h3>
+      <p>Perfect partners for relaxed settings.</p>
+    </div>
+    <div class="service-item">
+      <h3>Custom Experiences</h3>
+      <p>Design your ideal experience with full flexibility.</p>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="how-it-works">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Sign up and create an account.</li>
+      <li>Browse through detailed profiles of companions.</li>
+      <li>Communicate securely and arrange meetings effortlessly.</li>
+    </ol>
+  </section>
+  
+  <footer id="contact" class="footer">
+    <h2>Contact Us</h2>
+    <p>Email: support@elitecompanions.com</p>
+    <p>Phone: +44 1234 567 890</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services, .how-it-works, .footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-item {
+  background: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
